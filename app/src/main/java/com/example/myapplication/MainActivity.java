@@ -1,45 +1,55 @@
 package com.example.myapplication;
 
-import android.Manifest;
-import android.annotation.SuppressLint;
-import android.content.pm.PackageManager;
-import android.location.Location;
-import android.location.LocationListener;
-import android.location.LocationManager;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
+import android.widget.AdapterView;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private List<Contact> contactlist = new ArrayList<>();
+    Button   mButtonBack;
+    ListView mListView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         initContact();
         ContactAdapter adapter = new ContactAdapter(MainActivity.this,
                 R.layout.contact_item, contactlist);
-        ListView listView = (ListView) findViewById(R.id.list_view);
-        listView.setAdapter(adapter);
+        mListView = (ListView) findViewById(R.id.list_view);
+        mListView.setAdapter(adapter);
+        initView();
     }
+
+    private void initView() {
+        mButtonBack = (Button) findViewById(R.id.btn_back);
+        mButtonBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Contact contact = contactlist.get(position);
+                Toast.makeText(MainActivity.this, contact.getName(), Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
+
     private void initContact() {
         for (int i = 0; i < 10; i++) {
             Contact apple = new Contact("墨雨", R.drawable.avatar1);
