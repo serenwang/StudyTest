@@ -1,9 +1,103 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="第 1 页" id="Q4jDz6H18_isW9mFbE67">
-    <mxGraphModel>
+    <mxGraphModel dx="1595" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-1" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-size: 16px; text-align: start; white-space: pre-wrap;&quot;&gt;AdvanceSettingButton&lt;/span&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=48;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;labelBackgroundColor=none;textShadow=0;fontFamily=Lucida Console;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="-390" y="450" width="210" height="54.5" as="geometry">
+            <mxRectangle x="-300" y="270" width="250" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-2" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 16px; white-space-collapse: preserve;&quot;&gt; - manager: &lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 1em; word-spacing: normal; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AdvanceManager&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="WYNOVw6aIWCYw_fvYY9K-1">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-3" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 16px; white-space-collapse: preserve;&quot;&gt; + displayData() &lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="WYNOVw6aIWCYw_fvYY9K-1">
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-5" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-size: 16px; text-align: start; white-space: pre-wrap;&quot;&gt;AdvanceManager&lt;/span&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;labelBackgroundColor=none;textShadow=0;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="60" width="229" height="78" as="geometry">
+            <mxRectangle x="50" y="290" width="102" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-7" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-size: 16px; white-space-collapse: preserve;&quot;&gt;  - state: &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Advance&lt;/span&gt;&lt;span style=&quot;color: rgb(56, 58, 66); font-size: 16px; white-space-collapse: preserve;&quot;&gt;State&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=1;textShadow=0;fontFamily=Lucida Console;" vertex="1" parent="WYNOVw6aIWCYw_fvYY9K-5">
+          <mxGeometry y="26" width="229" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-8" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-size: 16px; white-space-collapse: preserve;&quot;&gt;  + getState(): State&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=1;textShadow=0;fontFamily=Lucida Console;" vertex="1" parent="WYNOVw6aIWCYw_fvYY9K-5">
+          <mxGeometry y="52" width="229" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-9" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-size: 16px; text-align: start; white-space: pre-wrap;&quot;&gt;AdvanceState&lt;/span&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;labelBackgroundColor=none;fontFamily=Lucida Console;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="208" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-10" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-size: 16px; white-space-collapse: preserve;&quot;&gt;- data: String&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=1;textShadow=0;fontFamily=Lucida Console;" vertex="1" parent="WYNOVw6aIWCYw_fvYY9K-9">
+          <mxGeometry y="26" width="208" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-11" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-size: 16px; white-space-collapse: preserve;&quot;&gt;+ getData(): String&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=1;textShadow=0;fontFamily=Lucida Console;" vertex="1" parent="WYNOVw6aIWCYw_fvYY9K-9">
+          <mxGeometry y="52" width="208" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-19" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontStyle=1;textShadow=0;labelBackgroundColor=none;fontFamily=Lucida Console;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-170" y="99" as="sourcePoint" />
+            <mxPoint x="-70" y="99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;textShadow=0;labelBackgroundColor=none;fontFamily=Lucida Console;" edge="1" parent="1" target="WYNOVw6aIWCYw_fvYY9K-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="159" y="98.57999999999998" as="sourcePoint" />
+            <mxPoint x="269" y="99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-21" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-size: 16px; text-align: start; white-space: pre-wrap;&quot;&gt;AdvanceSettingManager&lt;/span&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=48;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;labelBackgroundColor=none;textShadow=0;fontFamily=Lucida Console;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="-80" y="450" width="230" height="54.5" as="geometry">
+            <mxRectangle x="-300" y="270" width="250" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-22" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 16px; white-space-collapse: preserve;&quot;&gt; - manager: &lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 1em; word-spacing: normal; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AdvanceManager&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="WYNOVw6aIWCYw_fvYY9K-21">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-23" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 16px; white-space-collapse: preserve;&quot;&gt; + displayData() &lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="WYNOVw6aIWCYw_fvYY9K-21">
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-24" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-size: 16px; text-align: start; white-space: pre-wrap;&quot;&gt;AdvanceSettingState&lt;/span&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=48;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;labelBackgroundColor=none;textShadow=0;fontFamily=Lucida Console;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="250" y="450" width="212" height="54.5" as="geometry">
+            <mxRectangle x="-300" y="270" width="250" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-25" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 16px; white-space-collapse: preserve;&quot;&gt; - manager: &lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 1em; word-spacing: normal; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AdvanceManager&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="WYNOVw6aIWCYw_fvYY9K-24">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-26" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 16px; white-space-collapse: preserve;&quot;&gt; + displayData() &lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="WYNOVw6aIWCYw_fvYY9K-24">
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-30" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-size: 16px; text-align: start; white-space: pre-wrap;&quot;&gt;AdvanceSettingPanel&lt;/span&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=48;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;labelBackgroundColor=none;textShadow=0;fontFamily=Lucida Console;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="-390" y="570" width="210" height="54.5" as="geometry">
+            <mxRectangle x="-300" y="270" width="250" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-31" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 16px; white-space-collapse: preserve;&quot;&gt; - manager: &lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 1em; word-spacing: normal; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AdvanceManager&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="WYNOVw6aIWCYw_fvYY9K-30">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-32" value="&lt;span style=&quot;color: rgb(56, 58, 66); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 16px; white-space-collapse: preserve;&quot;&gt; + displayData() &lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="WYNOVw6aIWCYw_fvYY9K-30">
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-52" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WYNOVw6aIWCYw_fvYY9K-1" target="WYNOVw6aIWCYw_fvYY9K-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-120" y="620" as="sourcePoint" />
+            <mxPoint x="40" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-53" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WYNOVw6aIWCYw_fvYY9K-21" target="WYNOVw6aIWCYw_fvYY9K-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="660" as="sourcePoint" />
+            <mxPoint x="330" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYNOVw6aIWCYw_fvYY9K-54" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WYNOVw6aIWCYw_fvYY9K-1" target="WYNOVw6aIWCYw_fvYY9K-30">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="700" as="sourcePoint" />
+            <mxPoint x="210" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
